@@ -1,56 +1,21 @@
-<html>
-  <head>
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.2/Chart.bundle.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+<!doctype html>
 
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>HEY EVERYONE</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
 </head>
+
 <body>
-
-<img src="www.GIFCreator.me_9mTFb7.gif" alt="Computer Man" style="width:1250px;height:900px;">
-
-	<h1>WE ALL MADE IT</h1>
-	<h2>226 STUDENTS IN TOTAL</h2>
-	<h3>STOCKHOLM, 2016</h3>
-	<h4>How is it divided exactly?</h4>
-    <canvas id="myChart"></canvas>
-<script>
-Chart.defaults.global.legend.display = false;
-var ctx = document.getElementById("myChart");
-var myChart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-        labels: ["Digital Data Strategist", "Digital Business", "Digital Media Creative", "Interactive Art Director", "Motion Creative"],
-        datasets: [{
-            label: 'Amount of people accepted',
-            data: [40, 44, 42, 59, 41],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)'
-            ],
-            borderColor: [
-                'rgba(255,99,132,1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)'
-            ],
-            borderWidth: 1
-        }]
-    },
-    options: {
-        scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero:true
-                }
-            }]
-        }
-    }
-});
-</script>
-  </body>
+  <script src="js/scripts.js"></script>
+</body>
 </html>
