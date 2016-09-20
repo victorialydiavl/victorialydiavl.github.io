@@ -1,16 +1,34 @@
 #myChart {
+  margin-bottom: 100px;
 	margin-left: 100px;
 	max-width: 300px;
+  position: relative;
+  left: 200px;
 }
 
 #myChart2 {
-	margin: 80px;
-	max-width: 300px;
-   position: relative;
-     top: 10px; 
-  left: 500px;
+  margin-bottom: 100px;
+	 margin-left: 100px;
+  max-width: 300px;
+  position: relative;
+  left: 200px;
 }
 
+#myChart3 {
+  margin-bottom: 100px;
+    margin-left: 100px;
+  max-width: 300px;
+  position: relative;
+  left: 200px;
+}
+
+#myChart4 {
+  margin-bottom: 100px;
+  margin-left: 100px;
+  max-width: 300px;
+  position: relative;
+  left: 200px;
+}
 
 html, body {
   min-height: 100%;
@@ -27,6 +45,7 @@ body {
   background-position: center top;
   background-size: cover;
   margin: 0;
+  text-align: center;
 }
 
 .page-title {
@@ -45,7 +64,7 @@ h1 {
 
     text-align: center;
 
-    font-size: 250%;
+    font-size: 300%;
 
    
 }
@@ -59,10 +78,9 @@ h2 {
 }
 
 h3 {
-    font-family: "Univers Condensed", Times, serif;
     text-align: center;
 
-    font-size: 300%;
+    font-size: 120%;
 }
 
 nav {
