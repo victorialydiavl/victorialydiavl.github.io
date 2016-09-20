@@ -1,26 +1,50 @@
 <html>
 <body>
 <header>
-      <h1 class="page-title">WELCOME TO THE INOFFICIAL PAGE OF THE PROGRAM DIGITAL DATA STRATEGIST ON HYPER ISLAND</h1>
+      <h1 class="page-title">WELCOME to the inofficial page of the program: DIGITAL DATA STRATEGIST on HYPER ISLAND</h1>
       <p class="page-description">Applying for the Digital Data Strategist program on Hyper Island? Insecure if it is the program for you and what it actually is?
       Hopefully this will help you in your decision of becoming a future DDS-student </p>
     </header>
 
-<h2></h2>
+<h2>Down below you will find information from current students who all started the program 2016</h2>
+
+<h2>Quotes:</h2>
+
+<p>"Promising." - Bilal Khan</p>
+
+<p>"I feel like an entire new world has opened up to me since starting this education." - Enny Hellsen</p>
 
 
-How well did you understand what DDS, the program, actually was when you applied?
+<h2>Statistics: </h2>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.2/Chart.bundle.min.js"></script>
 <link rel="stylesheet" href="hyperstyle.css">
 
+<h3>How well did you understand what DDS, the program, actually was when you applied?</h3>
+
 <canvas id="myChart" width="100" height="100"></canvas>
 
+<h3>Do you want to work as a digital data strategist in the future?</h3>
+
 <canvas id="myChart2" width="100" height="100"></canvas>
+
+<h3>Do you know what you want to work with after graduating?</h3>
+
+<canvas id="myChart3" width="100" height="100"></canvas>
+
+<h3>Do you think this is the right program for you?</h3>
+
+<canvas id="myChart4" width="100" height="100"></canvas>
 
 <script>
 
 
   var ctx = document.getElementById("myChart");
+
+   </script>
+  
+
+<script>
 
   
 
@@ -54,33 +78,90 @@ How well did you understand what DDS, the program, actually was when you applied
 
    var ctx = document.getElementById("myChart2");
 
-   </script>
-  
-Do you want to work as a digital data strategist in the future?
 
-<script>
 
 
   var myDoughnutChart = new Chart(ctx, {
     type: 'doughnut',
     data: {
     labels: [
-        "Very well",
-        "Kind of",
-        "Not at all"
+        "Yes",
+        "No",
+        "I don't know"
     ],
     datasets: [
         {
-            data: [9, 17, 10],
+            data: [15, 2, 21],
             backgroundColor: [
                 "#33FF9F",
                 "#FF6833",
                 "#E28DB5"
             ],
             hoverBackgroundColor: [
-                "#FF6384",
-                "#36A2EB",
-                "#FFCE56"
+                "#33FF9F",
+                "#FF6833",
+                "#E28DB5"
+            ]
+        }]
+    },
+    options: {
+        responsive: true
+    }
+  });
+
+  var ctx = document.getElementById("myChart3");
+
+
+  var myDoughnutChart = new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+    labels: [
+        "Yes, I know exactly",
+        "No, I have no idea",
+        "I know vaguely"
+    ],
+    datasets: [
+        {
+            data: [6, 13, 19],
+            backgroundColor: [
+                "#991527",
+                "#25BDC2",
+                "#519C1E"
+            ],
+            hoverBackgroundColor: [
+                "#991527",
+                "#25BDC2",
+                "#519C1E"
+            ]
+        }]
+    },
+    options: {
+        responsive: true
+    }
+  });
+
+   var ctx = document.getElementById("myChart4");
+
+  var myDoughnutChart = new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+    labels: [
+        "Yes",
+        "No",
+        "I don't know yet, but I find it interesting"
+    ],
+    datasets: [
+        {
+            data: [30, 0, 7],
+            backgroundColor: [
+                "#DCDF7C",
+                "#7CDF9A",
+                "#7C97DF"
+            ],
+            hoverBackgroundColor: [
+                "#DCDF7C",
+                "#7CDF9A",
+                "#7C97DF"
             ]
         }]
     },
