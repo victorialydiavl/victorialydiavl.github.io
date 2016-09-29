@@ -1,0 +1,46 @@
+
+body {
+    background-color: OldLace ;
+    font-size: 140%;
+       font-family: 'Comic Sans MS', sans-serif;
+  background-position: center top;
+  background-size: cover;
+  margin: 0;
+  text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+    align: center;
+}
+
+#cf {
+  position:relative;
+  height:380px;
+  width:420px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: relative;
+  margin-top: 20px;
+}
+
